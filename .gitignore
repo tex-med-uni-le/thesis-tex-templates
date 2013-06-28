@@ -1,6 +1,8 @@
-*.swp
 *.aux
 *.bbl
 *.blg
+*.fdb_latexmk
 *.log
+*.swp
+*.toc
 *.out
