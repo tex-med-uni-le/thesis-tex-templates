@@ -2,9 +2,13 @@
 
 ## Installation
 
+Clone das Repository mittels `git`
+
 ```bash
 git clone https://github.com/sgibb/thesis-tex-templates.git
 ```
+
+oder lade einfach das zip-Archiv herunter:
 
 https://github.com/sgibb/thesis-tex-templates/archive/master.zip
 
