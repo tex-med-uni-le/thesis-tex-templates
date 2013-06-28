@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc}    % europäischer Zeichensatz (Sonderzeichen, etc.)
 \usepackage[utf8]{inputenc} % utf8 Eingabezeichensatz
 \usepackage[ngerman]{babel} % Trennungsregeln, Datumsangabe etc. in Deutsch
+\usepackage{siunitx}        % SI Einheiten
 
 \begin{document}
 
@@ -30,6 +31,7 @@
 \section{Kapitel}
 
 \subsection{Unterkapitel}
+siunitx test: \SI{123}{\pico\gram\per\mole}
 
 %% Appendix
 \input{content/tail/appendix}
