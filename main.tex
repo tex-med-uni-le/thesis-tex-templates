@@ -1,0 +1,26 @@
+\documentclass[a4paper]{scrreprt}
+
+\usepackage[T1]{fontenc}    % europäischer Zeichensatz (Sonderzeichen, etc.)
+\usepackage[utf8]{inputenc} % utf8 Eingabezeichensatz
+\usepackage[ngerman]{babel} % Trennungsregeln, Datumsangabe etc. in Deutsch
+
+\begin{document}
+
+\newcommand{\ThesisAuthor}{Max Mustermann}
+\newcommand{\ThesisTitle}{Max Mustermann}
+
+\author{\ThesisAuthor}
+\title{\ThesisTitle}
+\date{\today}
+
+\maketitle
+\tableofcontents
+
+\section{Kapitel}
+
+\subsection{Unterkapitel}
+
+%% Appendix
+\input{content/tail/appendix}
+
+\end{document}
