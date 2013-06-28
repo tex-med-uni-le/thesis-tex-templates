@@ -5,12 +5,12 @@
 Clone das Repository mittels `git`:
 
 ```bash
-git clone https://github.com/sgibb/thesis-tex-templates.git
+git clone https://github.com/tex-med-uni-le/thesis-tex-templates.git
 ```
 
 oder lade einfach das zip-Archiv herunter:
 
-https://github.com/sgibb/thesis-tex-templates/archive/master.zip
+https://github.com/tex-med-uni-le/thesis-tex-templates/archive/master.zip
 
 ## Offizielle Dokumente der Medizinischen Fakultät der Universität Leipzig
 
