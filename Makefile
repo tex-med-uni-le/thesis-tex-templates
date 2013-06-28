@@ -1,15 +1,14 @@
 ## package name
-NAME := foo
+NAME := $(shell basename `pwd`)
 MAIN := main
 DATE := $$(date +"%Y%m%d")
 
 .PHONY: $(NAME).pdf
 
 ## targets:
-all: $(NAME).pdf
+all: $(MAIN).pdf
 
-$(NAME).pdf: $(MAIN).tex
-	echo $(NAME)
+$(MAIN).pdf: $(MAIN).tex
 	latexmk -pdf -pdflatex="pdflatex -interactive=nonstopmode" -use-make $(MAIN.tex)
 
 clean:
