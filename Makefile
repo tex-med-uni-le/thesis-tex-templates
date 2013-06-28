@@ -12,6 +12,7 @@ $(MAIN).pdf: $(MAIN).tex
 	latexmk -pdf -pdflatex="pdflatex -interactive=nonstopmode" -use-make $(MAIN.tex)
 
 clean:
+	rm -rf .dist
 	latexmk -C
 
 dist: clean
