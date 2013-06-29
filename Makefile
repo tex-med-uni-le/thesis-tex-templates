@@ -1,14 +1,15 @@
 ## package name
 NAME := $(shell basename `pwd`)
 MAIN := main
-DATE := $$(date +"%Y%m%d")
+DATE := $(shell date +"%Y%m%d")
+TEXFILES := $(shell find . -type f -iname '*.tex')
 
 .PHONY: $(NAME).pdf
 
 ## targets:
 all: $(MAIN).pdf
 
-$(MAIN).pdf: $(MAIN).tex
+$(MAIN).pdf: $(TEXFILES)
 	latexmk -pdf -pdflatex="pdflatex -interactive=nonstopmode" -use-make $(MAIN.tex)
 
 clean:
