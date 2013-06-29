@@ -1,6 +1,8 @@
 \documentclass[a4paper]{book}
 
 
+\usepackage{geometry} % Titelseite braucht eigene Margins.
+
 \usepackage[ngerman]{babel} % Trennungsregeln, Datumsangabe etc. in Deutsch
 
 \usepackage[T1]{fontenc}    % europäischer Zeichensatz (Sonderzeichen, etc.)
@@ -15,9 +17,9 @@
 % Name
 \newcommand{\tAuthor}{Max Mustermann}
 % Titel der Dissertation
-\newcommand{\tTitle}{Musterpromotion}
+\newcommand{\tTitle}{Erstellung, Verbreitung und Verwendung einer ordentlichen Vorlage für Dissertationen an der Medizinischen Fakultät der Universität Leipzig\par}
  % zu erlangender Grad: Dr. med./Dr. med. dent./Dr. rer. med.
-\newcommand{\tDegree}{Dr. med.}
+\newcommand{\tDegree}{Doctor medicinae}
 % Geburtstag
 \newcommand{\tBirthday}{02.12.1409}
 % Geburtsstadt
@@ -29,7 +31,7 @@
 % Datum der Verteidigung
 \newcommand{\tDefenceDate}{01.01.1970}
 
-\input{official/titelblatt}
+\input{official/titelblatt_pretty}
 
 \tableofcontents
 
