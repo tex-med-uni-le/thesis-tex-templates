@@ -13,29 +13,35 @@
 
 \usepackage{blindtext}      % Seitenfüller zum Testen
 
+%% Eigene Makros
+\input{config/config}
+\input{macros/InOderAm}
+
+%% Dokument
 \begin{document}
 
-\input{config/config}
-
-
+%% Titelblatt
 \input{official/titelblatt_pretty}
 
-% Zeilennummer für die Inhaltsverzeichnis und Co. 
+%% Zeilennummer für die Inhaltsverzeichnis und Co.
 \setcounter{page}{1}
 \pagenumbering{Roman}
 
+%% TOC
 \tableofcontents
 \newpage
 
+%% Hauptteil
 \pagenumbering{arabic}
 \section{Kapitel}
 
 \subsection{Unterkapitel}
 siunitx test: \SI{123}{\pico\gram\per\mole}
 
+%% Schlussteil
+
 %% Zusammenfassung
 \input{content/tail/zusammenfassung}
-
 %% Appendix
 \input{content/tail/appendix}
 

@@ -1,0 +1,10 @@
+\usepackage{l3regex}        % Regular Expressions
+
+\ExplSyntaxOn
+\cs_generate_variant:Nn \regex_match:nnTF {nV}
+\newcommand{\InOderAm}[1]{
+  \regex_match:nVTF {Klinik} #1 {in~der} {am}
+}
+\ExplSyntaxOff
+
+
