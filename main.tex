@@ -11,25 +11,11 @@
 
 \usepackage{siunitx}        % SI Einheiten
 
+\usepackage{blindtext}      % Seitenfüller zum Testen
 
 \begin{document}
 
-% Name
-\newcommand{\tAuthor}{Max Mustermann}
-% Titel der Dissertation
-\newcommand{\tTitle}{Erstellung, Verbreitung und Verwendung einer ordentlichen Vorlage für Dissertationen an der Medizinischen Fakultät der Universität Leipzig\par}
- % zu erlangender Grad: Dr. med./Dr. med. dent./Dr. rer. med.
-\newcommand{\tDegree}{Doctor medicinae}
-% Geburtstag
-\newcommand{\tBirthday}{02.12.1409}
-% Geburtsstadt
-\newcommand{\tNativeTown}{Leipzig}
-% Hochschule/Institut
-\newcommand{\tDepartment}{Universtität Leipzig / Klinik für \TeX-Krankheiten}
-% Betreuer
-\newcommand{\tSupervisor}{Carl Ludwig \\ Paul Flechsig}
-% Datum der Verteidigung
-\newcommand{\tDefenceDate}{01.01.1970}
+\input{config/config}
 
 \input{official/titelblatt_pretty}
 
@@ -39,6 +25,9 @@
 
 \subsection{Unterkapitel}
 siunitx test: \SI{123}{\pico\gram\per\mole}
+
+%% Zusammenfassung
+\input{content/tail/zusammenfassung}
 
 %% Appendix
 \input{content/tail/appendix}
