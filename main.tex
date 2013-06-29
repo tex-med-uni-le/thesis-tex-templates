@@ -17,10 +17,17 @@
 
 \input{config/config}
 
+
 \input{official/titelblatt_pretty}
 
-\tableofcontents
+% Zeilennummer für die Inhaltsverzeichnis und Co. 
+\setcounter{page}{1}
+\pagenumbering{Roman}
 
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
 \section{Kapitel}
 
 \subsection{Unterkapitel}
