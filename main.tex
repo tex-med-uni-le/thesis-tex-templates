@@ -9,6 +9,7 @@
 
 \usepackage{siunitx}        % SI Einheiten
 
+\usepackage{blindtext}      % Seitenfüller zum Testen
 
 \begin{document}
 
@@ -28,6 +29,10 @@
 \newcommand{\tSupervisor}{Carl Ludwig \\ Paul Flechsig}
 % Datum der Verteidigung
 \newcommand{\tDefenceDate}{01.01.1970}
+% Monat der Einreichung
+\newcommand{\tSubmissionMonth}{January}
+% Jahr der Einreichung
+\newcommand{\tSubmissionYear}{1970}
 
 \input{official/titelblatt}
 
@@ -37,6 +42,9 @@
 
 \subsection{Unterkapitel}
 siunitx test: \SI{123}{\pico\gram\per\mole}
+
+%% Zusammenfassung
+\input{content/tail/zusammenfassung}
 
 %% Appendix
 \input{content/tail/appendix}
