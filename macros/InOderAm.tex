@@ -1,10 +1,10 @@
-\usepackage{l3regex}        % Regular Expressions
-
-\ExplSyntaxOn
-\cs_generate_variant:Nn \regex_match:nnTF {nV}
+%% \InOderAm
+%% Sucht nach "Klinik" in einem String und gibt im Erfolgsfall "in der"
+%% ansonsten "am" zurück.
+%% params: string
+%% returns: "in der"/"am"
+%%
 \newcommand{\InOderAm}[1]{
-  \regex_match:nVTF {Klinik} #1 {in~der} {am}
+  \expandarg
+  \IfSubStr{#1}{Klinik}{in~der}{am}
 }
-\ExplSyntaxOff
-
-
