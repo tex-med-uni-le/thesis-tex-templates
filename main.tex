@@ -9,6 +9,8 @@
 \usepackage[bitstream-charter]{mathdesign} % Moderne, serifenbetonte und sachliche Schriftart
 \usepackage[utf8]{inputenc} % utf8 Eingabezeichensatz
 
+\usepackage{totcount}       % Zähle Seitenzahlen, Abbildungen etc.
+
 \usepackage{siunitx}        % SI Einheiten
 
 \usepackage{blindtext}      % Seitenfüller zum Testen
@@ -16,6 +18,7 @@
 %% Eigene Makros
 \input{config/config}
 \input{macros/InOderAm}
+\input{macros/HideIfZero}
 
 %% Dokument
 \begin{document}
@@ -31,8 +34,12 @@
 \tableofcontents
 \newpage
 
-%% Hauptteil
 \pagenumbering{arabic}
+%% Bibliographische Beschreibung
+\input{content/head/bibliographische_beschreibung}
+\newpage
+
+%% Hauptteil
 \section{Kapitel}
 
 \subsection{Unterkapitel}
