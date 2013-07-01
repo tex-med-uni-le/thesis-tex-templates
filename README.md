@@ -1,6 +1,6 @@
 # LaTeX Vorlagen für die Promotion an der Medizinischen Fakultät der Universität Leipzig
 
-## Installation
+## Mithelfen
 
 Clone das Repository mittels `git`:
 
@@ -8,9 +8,49 @@ Clone das Repository mittels `git`:
 git clone https://github.com/tex-med-uni-le/thesis-tex-templates.git
 ```
 
-oder lade einfach das zip-Archiv herunter:
+## Arbeiten mit den Vorlagen
 
-https://github.com/tex-med-uni-le/thesis-tex-templates/archive/master.zip
+### Eigenes Repository aufsetzen
+
+Erzeuge dein eigenes Repository für deine Dissertation:
+
+```bash
+mkdir thesis
+cd thesis
+git init
+# do somethings
+touch README.md
+git commit -am "initial commit"
+```
+
+### Einrichtung der Vorlagen
+
+Einrichten des Vorlagen-Repository:
+
+```bash
+git remote add upstream https://github.com/tex-med-uni-le/thesis-tex-templates.git
+```
+
+Kontrolle:
+
+```bash
+git remote -v
+upstream        https://github.com/tex-med-uni-le/thesis-tex-templates.git (fetch)
+upstream        https://github.com/tex-med-uni-le/thesis-tex-templates.git (push)
+```
+
+### Synchronisation (Aktualisierungen aus dem Vorlagen-Repository holen)
+
+Aktualisierungen holen:
+
+```bash
+git fetch upstream
+```
+
+Aktualisierungen integrieren:
+```bash
+git merge upstream/master
+```
 
 ## Offizielle Dokumente der Medizinischen Fakultät der Universität Leipzig
 
