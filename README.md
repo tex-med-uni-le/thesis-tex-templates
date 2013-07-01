@@ -1,5 +1,15 @@
 # LaTeX Vorlagen für die Promotion an der Medizinischen Fakultät der Universität Leipzig
 
+## Offizielle Dokumente der Medizinischen Fakultät der Universität Leipzig
+
+ - [Promotionsordnung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=62)
+ - [Anlangen der Promotionsordnung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=63)
+ - [Merkblatt](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=533)
+ - [Eigenständigkeitserklärung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=68)
+ - [Einreichungserklärung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=460)
+ - [Gestaltungsvorschrift Titelblatt](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=71)
+
+
 ## Mithelfen
 
 Clone das Repository mittels `git`:
@@ -51,12 +61,3 @@ Aktualisierungen integrieren:
 ```bash
 git merge upstream/master
 ```
-
-## Offizielle Dokumente der Medizinischen Fakultät der Universität Leipzig
-
- - [Promotionsordnung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=62)
- - [Anlangen der Promotionsordnung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=63)
- - [Merkblatt](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=533)
- - [Eigenständigkeitserklärung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=68)
- - [Einreichungserklärung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=460)
- - [Gestaltungsvorschrift Titelblatt](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=71)
