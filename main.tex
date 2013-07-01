@@ -14,6 +14,7 @@
 \usepackage{totcount}       % Zähle Seitenzahlen, Abbildungen etc.
 
 \usepackage{siunitx}        % SI Einheiten
+\usepackage{natbib}         % Naturwissenschaftliche Zitierungen
 
 \usepackage{blindtext}      % Seitenfüller zum Testen
 
@@ -42,15 +43,14 @@
 \newpage
 
 %% Hauptteil
-\section{Kapitel}
-
-\subsection{Unterkapitel}
-siunitx test: \SI{123}{\pico\gram\per\mole}
+\input{content/main/main}
 
 %% Schlussteil
 
 %% Zusammenfassung
 \input{content/tail/zusammenfassung}
+%% Literaturverzeichnis
+\input{content/tail/literaturverzeichnis}
 %% Appendix
 \input{content/tail/appendix}
 
