@@ -9,6 +9,10 @@
  - [Einreichungserklärung](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=460)
  - [Gestaltungsvorschrift Titelblatt](http://www.uniklinikum-leipzig.de/f-Download-d-file.html?id=71)
 
+## Hilfreiche Links
+
+ - [Publikationsserver](http://ul.qucosa.de)
+ - [Referat für Akademische Angelegenheiten](http://www.uniklinikum-leipzig.de/r-promotionen-a-767.html)
 
 ## Mithelfen
 
